@@ -1,0 +1,39 @@
+@charset "UTF-8";
+header{
+    display: flex;
+}
+h1{
+    flex: 1;
+}
+input{
+    flex: 1;
+}
+nav{
+    flex: 1;
+}
+#um{
+    display: none;
+}
+#hm:hover #um{
+    display: block;
+}
+a{
+    text-decoration: none;
+    display: block;
+    padding: 12px;
+}
+Ul li{
+    list-style-type: none;
+}
+section{
+    border: 2px solid black;
+    height: 100vh;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+        "a b c d"
+    ;
+    align-content: space-evenly;
+}
